@@ -9,11 +9,11 @@ wrap_input(groupid, inputid, call, args)
 \arguments{
 \item{groupid}{id for the namespace}
 
+\item{inputid}{id for the input}
+
 \item{call}{function call}
 
 \item{args}{list of other arguments}
-
-\item{id}{id for the input}
 }
 \value{
 shiny function

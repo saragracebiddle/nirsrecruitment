@@ -4,18 +4,12 @@
 \alias{hiddentabPanelServer}
 \title{Hidden TabPanel Server Logic}
 \usage{
-hiddentabPanelServer(id, panelnames, hideaction, showaction)
+hiddentabPanelServer(id, panelnames)
 }
 \arguments{
 \item{id}{namespace id}
 
 \item{panelnames}{character vector of names of panels}
-
-\item{hideaction}{function to perform when hide button is
-clicked on the panel}
-
-\item{showaction}{function to perform when show button is
-clicked for the panel}
 }
 \value{
 none

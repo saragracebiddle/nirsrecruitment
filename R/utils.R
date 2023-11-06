@@ -1,7 +1,7 @@
 #' Wrap a call to a shiny function with a namespace and call the argument
 #'
 #' @param groupid id for the namespace
-#' @param id id for the input
+#' @param inputid id for the input
 #' @param call function call
 #' @param args list of other arguments
 #'
