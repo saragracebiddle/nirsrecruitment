@@ -9,7 +9,10 @@ groupInputs(id, inputs)
 \arguments{
 \item{id}{namespace id}
 
-\item{inputs}{tribble}
+\item{inputs}{tribble or data.frame with columns
+\code{inputid} character string of inputId to use for this input,
+\code{call} character string of function to call, and
+\code{args}a list of additional arguments to pass to the function}
 }
 \value{
 tagList

@@ -1,7 +1,11 @@
 #' Create a group of inputs
 #'
 #' @param id namespace id
-#' @param inputs tribble
+#' @param inputs tribble or data.frame with columns
+#'    `inputid` character string of inputId to use for this input,
+#'    `call` character string of function to call, and
+#'    `args`a list of additional arguments to pass to the function
+#'
 #'
 #' @return tagList
 #' @export
