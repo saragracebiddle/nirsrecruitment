@@ -8,5 +8,6 @@
 #' @return shiny function
 #' @export
 wrap_input <- function(groupid, inputid, call, args){
-  do.call(call, NS(groupid, inputid), args)
+  do.call(call, c(inputId = NS(groupid, inputid),
+                  args))
 }
