@@ -69,14 +69,10 @@ hiddentabPanelUI <- function(id, panels){
 #'
 #' @param id namespace id
 #' @param panelnames character vector of names of panels
-#' @param hideaction function to perform when hide button is
-#' clicked on the panel
-#' @param showaction function to perform when show button is
-#' clicked for the panel
 #'
 #' @return none
 #' @export
-hiddentabPanelServer <- function(id, panelnames, hideaction, showaction){
+hiddentabPanelServer <- function(id, panelnames){
   moduleServer(id, function(input, output, session){
     hide <- function(panelname){
       observeEvent(input[[paste0(panelname, "-hide")]],{
